@@ -94,6 +94,14 @@ public class DriverCode {
 				System.out.println(packet.viewPacket());
 			}
 
+			try {
+			packets[3].createPacket(4, "Sir");
+			} catch (ArrayIndexOutOfBoundsException e) {
+				System.out.println(e.fillInStackTrace());
+			} finally {
+				System.out.println("\nArray Size is " + packets.length);
+			}
+			
 		}
 
 	}
