@@ -24,7 +24,7 @@ Description for each class/interface/member is given below:
 | ArrayList  cIdMsg  =  new ArrayList<>();                    	| Combining ID of the packet and Message into a ArrayList  	|
 | TreeMap <Integer, ArrayList>  pMap  =  new TreeMap<>(); 	| Accepts ID of the packet and cIDMsg which is a ArrayList 	|
 | UserLogin  loginObj;                                        	| Need to check if user logged in before doing any operation (ex. Creating a packet)                         	|
-| createPacket (String packetMessage)                        	| Creates a packet and stores the message in it            	|
+| createPacket(String packetMessage)                        	| Creates a packet and stores the message in it            	|
 | viewPacket()                                                	| View the packet                                          	|
 | viewPacket(int id)                                          	| View the packet according the packet ID given            	|
 
