@@ -15,7 +15,7 @@ A packet has three fields: ID (int), ComputerID (long), Message (String).
 Description for each class/interface/member is given below:
 
 # packets
-##Packet Class
+## Packet Class
 | Members                                                     	| Description                                              	|
 |-------------------------------------------------------------	|----------------------------------------------------------	|
 | protected static int  id;                                   	| ID of the packet                                         	|
@@ -29,7 +29,7 @@ Description for each class/interface/member is given below:
 | viewPacket(int id)                                          	| View the packet according the packet ID given            	|
 
 # mathPrograms
-##Calculator 
+## Calculator 
 ### Calculator Class 
 Implements the Calculator Interface.
 
@@ -41,7 +41,7 @@ Implements the Calculator Interface.
 | int  division(int  number1,  int number2)          	| Divides two integer numbers 	|
 | double  division(double  number1,  double number2) 	| Divides two double numbers  	|
 
-#loginSystem
+# loginSystem
 ### Person Class (Abstract)
 | Members                                                	| Description                	|
 |--------------------------------------------------------	|----------------------------	|
