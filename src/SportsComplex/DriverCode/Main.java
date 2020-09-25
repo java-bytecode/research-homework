@@ -20,7 +20,7 @@ public class Main {
             Scanner in = new Scanner(System.in);
             System.out.print("Enter your name? ");
             name = in.nextLine();
-            if (name.isBlank() || name.isEmpty() || name.equals("")){
+            if (name.isBlank() || name.isEmpty()){
                 break;
             } else {
                 userObj.createUser(name);
