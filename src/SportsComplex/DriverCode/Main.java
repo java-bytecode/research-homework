@@ -19,8 +19,8 @@ public class Main {
         while(true) {
             Scanner in = new Scanner(System.in);
             System.out.print("Enter your name? ");
-            name = in.next();
-            if (name.isBlank() || name.isEmpty()){
+            name = in.nextLine();
+            if (name.isBlank() || name.isEmpty() || name.equals("")){
                 break;
             } else {
                 userObj.createUser(name);
