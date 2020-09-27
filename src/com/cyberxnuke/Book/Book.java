@@ -11,6 +11,7 @@ public class Book {
     ArrayList bookDetails1;
     ArrayList bookDetails2;
     ArrayList bookDetails3;
+    // ArrayList bookDetails;
     HashMap<Integer, ArrayList> books;
 
     {
