@@ -17,8 +17,7 @@ public class ThreadCalcAvg implements Runnable {
         avg(number1, number2);
     }
 
-    public synchronized void avg(int number1, int number2) {
-        resultCalc = true;
-        resultCalc.notify();
+    public void avg(int number1, int number2) {
+        System.out.println("Average: " + (number1 + number2)/2);
     }
 }

@@ -10,21 +10,10 @@ public class ThreadDisplay extends Thread {
 
     @Override
     public void run(){
-        printAvg();
+        print();
     }
 
-    public void printAvg(){
-        synchronized(resultCalc){
-            try {
-                while(!resultCalc){
-                    resultCalc.wait();
-                }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-
-            System.out.println("CALC AVG THREAD DONE");
-           // System.out.println("Average: " + (number1 + number2)/2);
+    public void print(){
+            System.out.println("CALC SUM & AVG THREADS DONE");
         }
     }
-}
